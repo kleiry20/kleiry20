@@ -8,7 +8,7 @@
 
 <div  align="center">
   <p>A budding <i><strong>Software Engineer</strong></i> <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from India 🇮🇳</p> 
-  <p>I studied <strong>Bachelor's of Engineering</strong> in <strong>CSE</strong> and graduated in <strong>2022</strong> 📚</p>
+  <p>I studied <strong>Bachelor's of Engineering</strong> - <strong>CSE</strong> and graduated in <strong>2022</strong> 📚</p>
   <p>I have <i><strong>1 year</strong></i> of hands-on work experience in a startup environment 💪</p>
 </div>
 
