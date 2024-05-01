@@ -88,8 +88,9 @@
 <br/>
 
 ## <div align="center"> <img src="https://media.tenor.com/9k7CtFaopkcAAAAj/grogu-baby-yoda.gif" width="50px"/>I am</div>
+<br/>
 <p align="center">
-  Looking to collaborate as a <strong>Junior Software Engineer</strong> and can join <i>immediately.</i> 👯 
+  Looking to collaborate as a <strong>Junior Software Engineer</strong> and can join <i>immediately.</i>
 </p>
 <br/>
 <div align="center" width="100%">
