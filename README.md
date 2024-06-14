@@ -24,6 +24,7 @@
   <a href="https://www.linkedin.com/in/anushka-21/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" height="30" width="100"/>
   </a>
+  &nbsp;
   <a href="mailto:anushkasingh801@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge" height="30" width="90"/>
   </a>
@@ -44,8 +45,7 @@
 
 <div align="center">
   <p>I am into <strong>Web Development</strong> and all things <strong>UI</strong> ✨</p>
-  <a href='./AnushkaSingh.pdf' target="_blank">Resume Link</a>
-  <a href="https://github.com/kleiry20/kleiry20/blob/997f981d2d9e67f8e84d0d733110c4b05cdfa301/AnushkaSingh.pdf" target="_blank">open</a>
+  <a href="https://github.com/kleiry20/kleiry20/blob/997f981d2d9e67f8e84d0d733110c4b05cdfa301/AnushkaSingh.pdf" target="_blank">Resume</a>
   <br/>
   <br/>
   <div align="center">
