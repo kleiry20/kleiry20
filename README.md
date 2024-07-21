@@ -45,7 +45,7 @@
 
 <div align="center">
   <p>I am into <strong>Web Development</strong> and all things <strong>UI</strong> ✨</p>
-  <a href="https://github.com/kleiry20/kleiry20/blob/997f981d2d9e67f8e84d0d733110c4b05cdfa301/AnushkaSingh.pdf" target="_blank">Resume</a>
+<!--   <a href="https://github.com/kleiry20/kleiry20/blob/997f981d2d9e67f8e84d0d733110c4b05cdfa301/AnushkaSingh.pdf" target="_blank">Resume</a> -->
   <br/>
   <br/>
   <div align="center">
