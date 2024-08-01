@@ -9,7 +9,9 @@
 <div  align="center">
   <p>A budding <i><strong>Software Engineer</strong></i> <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from India 🇮🇳</p> 
   <p>I studied <strong>Bachelor's of Engineering</strong> - <strong>CSE</strong> and graduated in <strong>2022</strong> 📚</p>
-  <p>I have <i><strong>1 year</strong></i> of hands-on work experience in a startup environment 💪</p>
+  <br/>
+  <p>I earned <i><strong>1+ years</strong></i> of hands-on relevant experience</p>
+  <p>in <strong>Web Development</strong> and all things UI ✨</p>
 </div>
 
 <br/>
@@ -42,38 +44,40 @@
 
 <br/>
 
-
 <div align="center">
-  <p>I am into <strong>Web Development</strong> and all things <strong>UI</strong> ✨</p>
+  
+  <br/>
 <!--   <a href="https://github.com/kleiry20/kleiry20/blob/997f981d2d9e67f8e84d0d733110c4b05cdfa301/AnushkaSingh.pdf" target="_blank">Resume</a> -->
-  <br/>
-  <br/>
+  
   <div align="center">
-    <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
-    <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
-    <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
-    <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="50" height="50"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="50" height="50"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="50" height="50"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="50" height="50"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" alt="Bootstrap" width="50" height="50"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/materialui/materialui-original.svg" title="Material UI" alt="Material UI" width="50" height="50"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/antdesign/antdesign-original.svg" title="Ant Design" alt="Ant Design" width="50" height="50"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="50" height="50"/>&nbsp;
   </div>
+
   <br/>
-  <div>
-    <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" alt="Bootstrap" width="40" height="40"/>&nbsp;
-    <img src="https://github.com/devicons/devicon/blob/master/icons/materialui/materialui-original.svg" title="Material UI" alt="Material UI" width="40" height="40"/>&nbsp;
-    <img src="https://github.com/devicons/devicon/blob/master/icons/antdesign/antdesign-original.svg" title="Ant Design" alt="Ant Design" width="40" height="40"/>&nbsp;
-    <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
-  </div>
-  <br/>
+  <p>Currently invested in strengthening my <strong><i>skills</i></strong> and</p>
+   <p>sharing my daily progress on GitHub ✅</p>
+ 
   <br/>
 </div>
 
+<!--
 <div align="center">
   <img src="https://media1.tenor.com/m/iAy-KwJB1DkAAAAC/typing.gif" width="350"/>
 </div>
+-->
 <br/>
 
 ## <div align="center"> :fire: My Stats</div>
 
 <br/>
-<p align="center">I am working on getting better!<img src="https://media.tenor.com/2m5dpVF8I4AAAAAj/ok.gif" width="50px" /></p>
+<p align="center">Consistency! <img align="center" src="https://media.tenor.com/2m5dpVF8I4AAAAAj/ok.gif" width="50" /></p>
 
 <div align="center">
   <img src="http://github-readme-streak-stats.herokuapp.com?user=kleiry20&theme=tokyonight" height="230px">
@@ -87,7 +91,7 @@
 <div align="center">
   <img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" />
 </div>
-<br/>
+
 
 ## <div align="center"> <img src="https://media.tenor.com/9k7CtFaopkcAAAAj/grogu-baby-yoda.gif" width="50px"/>I am</div>
 <br/>
@@ -103,7 +107,7 @@
 
 <!--
 **kleiry20/kleiry20** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
+<img src="https://media.tenor.com/dNplOtkBITQAAAAi/baby-cute.gif" width="200" />
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
