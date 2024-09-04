@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"); */
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #efe7dd;
+}
+
+/* fonts */
+.cardo-regular {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cardo-bold {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cardo-regular-italic {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* app */
+.front {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-family: "Cardo", serif;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  text-align: center;
+  margin-top: 9rem;
+  align-items: center;
+}
+
+.image-title {
+  font-size: 6rem;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.image-hero {
+  /* height: 18rem;
+  width: 10rem; */
+  display: flex;
+  border-radius: 10px;
+  z-index: -1;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
+
+  position: relative;
+  height: auto;
+  width: 12rem;
+  display: flex;
+  bottom: 42px;
+}
+
+/* old */
+.header {
+  height: 2rem;
+  background-image: linear-gradient(to right, pink, purple);
+  padding: 1rem 2rem;
+}
+
+.main {
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+}
+
+.project-wrapper {
+  border: 1px solid;
+  border-radius: 5px;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem 2rem;
+  gap: 4rem 7rem;
+  justify-content: center;
+}
+
+.project-card {
+  border: 1px solid green;
+  height: 8rem;
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-cover {
+  height: 70%;
+}
+
+.project-link {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
