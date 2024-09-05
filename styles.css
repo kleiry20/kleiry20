@@ -40,7 +40,7 @@ section {
   font-style: italic;
 }
 
-/* utility */
+/* utility classes */
 .section-break {
   margin-top: 6rem;
 }
@@ -54,7 +54,7 @@ section {
 
 .name {
   font-family: "Cardo", serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   font-style: italic;
   letter-spacing: 0.8px;
@@ -75,7 +75,6 @@ section {
   text-transform: uppercase;
   font-weight: 200;
   color: #000000c7;
-  /* color: #1d090cc9; */
 }
 
 .hero-image {
@@ -126,16 +125,12 @@ section {
 .bento-title {
 }
 
-/* experience */
+/* experience section */
 .experience-section {
   font-family: "Cardo", serif;
   padding: 2rem;
   display: flex;
   gap: 4rem;
-}
-
-.font-large{
-  
 }
 
 .experience-title {
@@ -174,4 +169,22 @@ section {
   font-weight: 900;
   font-size: 18px;
   margin: 0;
+}
+
+/* skills section */
+.skills-section {
+  padding: 2rem;
+  font-family: "Cardo", serif;
+  display: flex;
+}
+
+.skills-wrapper {
+  margin-top: 4rem;
+}
+
+.skills-title {
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  color: var(--color-title);
+  margin-top: 4rem;
 }
