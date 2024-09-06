@@ -63,6 +63,20 @@ section {
   margin: 0;
 }
 
+.mb-5 {
+  margin-bottom: 5rem;
+}
+
+/* animations */
+.parrots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  /* additional */
+  align-items: flex-end;
+  flex-grow: 1;
+}
+
 /* app */
 .hero {
   display: flex;
@@ -149,13 +163,25 @@ section {
   padding: 2rem;
   display: flex;
   gap: 4rem;
+  min-height: auto;
+}
+
+.experience-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.experience-icon {
+  transform: rotate(-12deg);
 }
 
 .experience-title {
   font-size: 3.4rem;
   text-transform: uppercase;
   color: var(--color-title);
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
+  margin: 0;
 }
 
 .experience-wrapper {
@@ -195,6 +221,7 @@ section {
   font-family: "Cardo", serif;
   display: flex;
   flex-direction: column;
+  min-height: auto;
 }
 
 .skills-wrapper {
@@ -215,6 +242,12 @@ section {
 .skills-title-emoji {
   height: auto;
   width: 4rem;
+}
+
+.skills-intro {
+  text-align: center;
+  margin: 5rem;
+  font-weight: 700;
 }
 
 .skills-dimensions {
@@ -247,6 +280,7 @@ section {
 .footer-content {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer-desc {
@@ -259,6 +293,12 @@ section {
 }
 
 .footer-socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-socials a {
+  font-style: italic;
 }
 
 .footer-mention {
