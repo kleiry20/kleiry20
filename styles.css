@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap");
 /* @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
   --color-title: #000000c7;
+  --color-gray: #c4cad3;
 }
 
 body {
@@ -40,9 +43,24 @@ section {
   font-style: italic;
 }
 
+.montserrat {
+  font-family: "Montserrat", serif;
+}
+.poppins {
+  font-family: "Poppins", serif;
+}
+
 /* utility classes */
 .section-break {
   margin-top: 6rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.m-0 {
+  margin: 0;
 }
 
 /* app */
@@ -176,15 +194,89 @@ section {
   padding: 2rem;
   font-family: "Cardo", serif;
   display: flex;
+  flex-direction: column;
 }
 
 .skills-wrapper {
-  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
 }
 
 .skills-title {
   font-size: 3.4rem;
+  display: flex;
+  justify-content: center;
   text-transform: uppercase;
   color: var(--color-title);
-  margin-top: 4rem;
+}
+
+.skills-title-emoji {
+  height: auto;
+  width: 4rem;
+}
+
+.skills-dimensions {
+  height: auto;
+  width: 5rem;
+}
+
+/* footer section */
+.footer {
+  min-height: 400px;
+  margin: 2rem 4rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-name {
+  font-family: "Montserrat", serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-desc {
+  text-transform: uppercase;
+  font-size: 4rem;
+  width: 55%;
+  font-weight: 300;
+  font-family: "Montserrat";
+  margin: 0;
+}
+
+.footer-socials {
+}
+
+.footer-mention {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-grow: 1;
+}
+
+.footer-p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  letter-spacing: 2.5px;
+  font-family: "Montserrat", serif;
+  /* color: #9399a2; */
+}
+
+.footer-a {
+  color: black;
 }
