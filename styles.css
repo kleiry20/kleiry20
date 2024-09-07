@@ -6,6 +6,7 @@
 :root {
   --color-title: #000000c7;
   --color-gray: #c4cad3;
+  --color-green: #818473;
 }
 
 body {
@@ -22,6 +23,7 @@ body {
 section {
   min-height: 760px;
   border: 1px solid;
+  padding: 2rem;
 }
 
 /* fonts */
@@ -121,14 +123,59 @@ section {
   bottom: 42px;
 }
 
-.projects-section {
-  min-height: 800px;
+/* projects-section */
+.project-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.project-section-title {
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  color: var(--color-title);
+  margin: 0;
+  text-align: end;
+  margin-right: 2rem;
 }
 
-.projects-wrapper {
+.project-wrapper {
   display: flex;
-  gap: 1rem;
+  padding: 2rem;
+  justify-content: space-between;
 }
+
+.project-card {
+  background-color: var(--color-green);
+  border-radius: 10px;
+  color: #3a3a21;
+  padding: 1rem;
+  width: 20rem;
+}
+
+.project-card-title {
+  font-size: 3rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.project-card-desc {
+  line-height: 22px;
+  font-size: 16px;
+}
+
+.project-image-scroller {
+  overflow: auto;
+  display: flex;
+  white-space: nowrap;
+}
+
+.project-image-scroller p {
+  width: 7rem;
+}
+
+/* .project-card-image {
+  width: 7rem;
+} */
 
 .bento-wrapper {
   height: auto;
@@ -180,7 +227,6 @@ section {
   font-size: 3.4rem;
   text-transform: uppercase;
   color: var(--color-title);
-  /* margin-top: 4rem; */
   margin: 0;
 }
 
@@ -188,18 +234,28 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 8px;
 }
 
 .experience-item {
   display: flex;
   gap: 5rem;
+  /* border: 1px solid red; */
 }
 
 .designation-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.designation-span {
+  display: inline-flex;
+  align-items: center;
 }
 
 .ul-wrapper {
   line-height: 26px;
+  /* border: 1px solid green; */
 }
 
 .designation {
@@ -209,7 +265,8 @@ section {
 }
 
 .timeline {
-  width: 40%;
+  /* width: 40%; */
+  width: 20rem;
   font-weight: 900;
   font-size: 18px;
   margin: 0;
