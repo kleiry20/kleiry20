@@ -141,21 +141,24 @@ section {
 .project-wrapper {
   display: flex;
   padding: 2rem;
+  /* gap: 1rem; */
   justify-content: space-between;
 }
 
 .project-card {
   background-color: var(--color-green);
   border-radius: 10px;
-  color: #3a3a21;
-  padding: 1rem;
-  width: 20rem;
+  /* color: #3a3a21; */
+  color: #1d1b1bc7;
+  padding: 2rem;
+  width: 18rem;
 }
 
 .project-card-title {
   font-size: 3rem;
   font-size: 1.4rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .project-card-desc {
