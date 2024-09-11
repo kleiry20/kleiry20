@@ -13,6 +13,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: #efe7dd;
+  /* cursor: url("https://fav.farm/🐁") 15 0, auto; */
 }
 
 .main {
@@ -24,6 +25,13 @@ section {
   min-height: 760px;
   border: 1px solid;
   padding: 2rem;
+}
+
+/* icons */
+.html-icon {
+  color: #e34f26;
+  width: 5rem;
+  height: auto;
 }
 
 /* fonts */
@@ -328,6 +336,7 @@ section {
 .footer-top {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
 .footer-name {
@@ -341,6 +350,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 1rem;
 }
 
 .footer-desc {
@@ -379,4 +389,15 @@ section {
 
 .footer-a {
   color: black;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid green;
+}
+
+.contact-names{
+  /* display: flex; */
 }
