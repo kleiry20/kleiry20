@@ -27,7 +27,8 @@
   color: #1d1b1bc7;
   padding: 2rem;
   /* width: 18rem; */
-  height: auto;
+  min-height: 12rem;
+  /* width: 50%; */
 }
 
 .project-card-title {
