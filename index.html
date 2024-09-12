@@ -5,14 +5,17 @@
     <link rel="icon" href="https://fav.farm/👾" />
 
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./projects.css" />
+    <link rel="stylesheet" href="./responsive.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anushka's Portfolio</title>
     <!-- can remove later (below) -->
-    <script
+    <!-- <script
       src="https://kit.fontawesome.com/e9e00d002f.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="font-awesome-animation.min.css" />
+    <link rel="stylesheet" href="font-awesome-animation.min.css" /> -->
+    <script src="./index.js"></script>
   </head>
   <body>
     <div class="main">
@@ -209,8 +212,8 @@
 
       <section class="section-break project-section">
         <h3 class="project-section-title">Sample projects</h3>
-        <div class="project-wrapper">
-          <div class="project-card">
+        <!-- <div class="project-wrapper">
+          <div class="project-card" onclick="openProject('crypto')">
             <a class="project-card-title">Crypto Website</a>
             <p class="project-card-desc">
               This project replicates the UI of Intract's Academy tab. The page
@@ -219,6 +222,44 @@
               and CSS.
             </p>
           </div>
+          <div class="project-card" onclick="openProject('crypto')">
+            <a class="project-card-title">Event Management Website</a>
+            <p class="project-card-desc">
+              Turning the design into life with stunning pixel-perfect UI,
+              animations, and responsive design for an event management website
+              named Astrix.
+            </p>
+          </div>
+        </div>
+        <div class="project-wrapper">
+          <div class="project-card" onclick="openProject('crypto')">
+            <a class="project-card-title">Weather App</a>
+            <p class="project-card-desc">
+              This ReactJS (Vite) app showcases the real-time weather data for
+              any city using the Search bar component. Implemented innovative
+              design techniques by including CSS Flexbox and Media Queries for
+              responsive layout across various devices. Displays weather
+              forecasts, air conditions, and 7-day forecasts in an aesthetically
+              pleasing manner. Integrated API data from OpenWeatherMap and
+              QuoteGarden to enhance functionality and UX.
+            </p>
+          </div>
+        </div> -->
+
+        <div class="grid">
+          <div class="grid-child project-card" onclick="openProject('crypto')">
+            <a class="project-card-title">Crypto Website</a>
+            <p class="project-card-desc">
+              This project replicates the UI of Intract's Academy tab. The page
+              is divided into various sections consisting of uniquely designed
+              components like cards and user journeys. Developed using ReactJs
+              and CSS.
+            </p>
+          </div>
+
+          <div class="grid-child">2</div>
+          <div class="grid-child">3</div>
+          <div class="grid-child">4</div>
         </div>
 
         <!-- parrots -->

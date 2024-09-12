@@ -1,0 +1,80 @@
+/* || Projects Section */
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.project-section-title {
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  color: var(--color-title);
+  margin: 0;
+  text-align: end;
+  margin-right: 2rem;
+}
+
+.project-wrapper {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+}
+
+.project-card {
+  background-color: var(--color-green);
+  border-radius: 10px;
+  /* color: #3a3a21; */
+  color: #1d1b1bc7;
+  padding: 2rem;
+  /* width: 18rem; */
+  height: auto;
+}
+
+.project-card-title {
+  font-size: 3rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.project-card-desc {
+  line-height: 22px;
+  font-size: 16px;
+}
+
+.project-image-scroller {
+  overflow: auto;
+  display: flex;
+  white-space: nowrap;
+}
+
+.project-image-scroller p {
+  width: 7rem;
+}
+
+.bento-wrapper {
+  height: auto;
+  width: 8rem;
+}
+
+.bento {
+  min-height: 6rem;
+  min-width: 6rem;
+  border-radius: 10px;
+  background-color: #818473;
+  display: flex;
+  cursor: pointer;
+}
+
+.bento-value {
+  color: #efe7dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  font-size: 34px;
+}
+
+.bento-title {
+}
