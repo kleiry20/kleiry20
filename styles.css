@@ -276,7 +276,6 @@ section {
 }
 
 .timeline {
-  /* width: 40%; */
   width: 20rem;
   font-weight: 900;
   font-size: 18px;
@@ -296,7 +295,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .skills-title {
@@ -321,6 +320,29 @@ section {
 .skills-dimensions {
   height: auto;
   width: 5rem;
+}
+
+.skills {
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+}
+
+.skills:hover {
+  transform: scale(1.2);
+}
+
+.skills-rotate-right {
+  transition: transform 0.3s ease-in;
+}
+.skills-rotate-right {
+  transform: rotate(-10deg);
+}
+
+.skills-rotate-right {
+  transition: transform 0.3s ease-in;
+}
+.skills-rotate-left {
+  transform: rotate(10deg);
 }
 
 /* footer section */
@@ -398,6 +420,6 @@ section {
   border: 1px solid green;
 }
 
-.contact-names{
+.contact-names {
   /* display: flex; */
 }
