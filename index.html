@@ -212,42 +212,12 @@
 
       <section class="section-break project-section">
         <h3 class="project-section-title">Sample projects</h3>
-        <!-- <div class="project-wrapper">
-          <div class="project-card" onclick="openProject('crypto')">
-            <a class="project-card-title">Crypto Website</a>
-            <p class="project-card-desc">
-              This project replicates the UI of Intract's Academy tab. The page
-              is divided into various sections consisting of uniquely designed
-              components like cards and user journeys. Developed using ReactJs
-              and CSS.
-            </p>
-          </div>
-          <div class="project-card" onclick="openProject('crypto')">
-            <a class="project-card-title">Event Management Website</a>
-            <p class="project-card-desc">
-              Turning the design into life with stunning pixel-perfect UI,
-              animations, and responsive design for an event management website
-              named Astrix.
-            </p>
-          </div>
-        </div>
-        <div class="project-wrapper">
-          <div class="project-card" onclick="openProject('crypto')">
-            <a class="project-card-title">Weather App</a>
-            <p class="project-card-desc">
-              This ReactJS (Vite) app showcases the real-time weather data for
-              any city using the Search bar component. Implemented innovative
-              design techniques by including CSS Flexbox and Media Queries for
-              responsive layout across various devices. Displays weather
-              forecasts, air conditions, and 7-day forecasts in an aesthetically
-              pleasing manner. Integrated API data from OpenWeatherMap and
-              QuoteGarden to enhance functionality and UX.
-            </p>
-          </div>
-        </div> -->
 
-        <div class="grid">
-          <div class="grid-child project-card" onclick="openProject('crypto')">
+        <div class="projects-flex-container">
+          <div
+            class="projects-flex-item project-card"
+            onclick="openProject('crypto')"
+          >
             <a class="project-card-title">Crypto Website</a>
             <p class="project-card-desc">
               This project replicates the UI of Intract's Academy tab. The page
@@ -255,8 +225,31 @@
               components like cards and user journeys. Developed using ReactJs
               and CSS.
             </p>
+
+            <div class="project-stack">
+              <div class="project-stack-wrapper">
+                <img
+                  class="project-stack-icon"
+                  src="https://skillicons.dev/icons?i=html&theme=dark"
+                  alt="html"
+                /><img
+                  class="project-stack-icon"
+                  src="https://skillicons.dev/icons?i=css&theme=dark"
+                  alt="html"
+                /><img
+                  class="project-stack-icon"
+                  src="https://skillicons.dev/icons?i=react&theme=dark"
+                  alt="html"
+                />
+              </div>
+
+              <button class="btn">View project</button>
+            </div>
           </div>
-          <div class="grid-child project-card" onclick="openProject('event')">
+          <div
+            class="projects-flex-item project-card"
+            onclick="openProject('ee')"
+          >
             <a class="project-card-title">Event Management Website</a>
             <p class="project-card-desc">
               Turning the design into life with stunning pixel-perfect UI,
@@ -264,16 +257,28 @@
               named Astrix.
             </p>
           </div>
-          <div class="grid-child project-card" onclick="openProject('weather')">
+          <div
+            class="projects-flex-item project-card"
+            onclick="openProject('weather')"
+          >
             <a class="project-card-title">Weather App</a>
             <p class="project-card-desc">
-              This ReactJS (Vite) app showcases the real-time weather data for
-              any city using the Search bar component. Implemented innovative
-              design techniques by including CSS Flexbox and Media Queries for
-              responsive layout across various devices. Displays weather
-              forecasts, air conditions, and 7-day forecasts in an aesthetically
-              pleasing manner. Integrated API data from OpenWeatherMap and
-              QuoteGarden to enhance functionality and UX.
+              Check real-time weather data for any city with a simple search.
+              Innovative design and responsive layout with CSS Flexbox and Media
+              Queries. Dashboard UI with weather forecasts, air conditions, and
+              7-day forecasts. API data from OpenWeatherMap and QuoteGarden to
+              enhance functionality and UX.
+            </p>
+          </div>
+          <div
+            class="projects-flex-item project-card"
+            onclick="openProject('apparel')"
+          >
+            <a class="project-card-title">Apparel Website</a>
+            <p class="project-card-desc">
+              Developed the UI/UX of Bewakoof’s website with semantic code and
+              employed pure CSS and Flexbox concepts to create a visually
+              appealing and responsive user interface.
             </p>
           </div>
         </div>
