@@ -2,8 +2,8 @@
 
 .project-section {
   display: flex;
-  /* flex-direction: column; */
   gap: 2rem;
+  min-height: auto;
 }
 
 .project-section-title {
@@ -35,19 +35,18 @@
 
 .projects-flex-item {
   margin: 10px;
-  /* padding: 20px;
-  width: 24rem; */
   flex-shrink: 0;
-
   padding: 24px 24px;
   width: 22rem;
+  height: 14.688rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card-title {
   font-size: 3rem;
   font-size: 1.4rem;
   font-weight: 700;
-  text-align: center;
   font-style: italic;
 }
 
@@ -55,12 +54,20 @@
   line-height: 22px;
   font-size: 16px;
   letter-spacing: 0.2px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .project-stack {
   display: flex;
   justify-content: space-between;
   margin-top: 2rem;
+  align-items: flex-end;
+  flex-grow: 1;
 }
 
 .project-stack-wrapper {

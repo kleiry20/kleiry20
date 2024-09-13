@@ -12,6 +12,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: #efe7dd;
+  max-width: 100vw;
   /* cursor: url("https://fav.farm/🐁") 15 0, auto; */
 }
 
@@ -80,12 +81,25 @@ section {
   cursor: pointer;
   color: var(--color-title);
   font-weight: 600;
+  /* background-color: #ddc6c1; */
 
   /*  */
   position: relative;
   --border-size: 2px;
   --background-color: #e1d7d5;
   --card-accent-color: #af594c;
+}
+
+.btn-arrow {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.btn-arrow-icon {
+  font-size: 18px;
+  margin-bottom: 2px;
 }
 
 /* ----- || Button Animations ----- */
