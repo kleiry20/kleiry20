@@ -74,11 +74,73 @@ section {
 /* || UTILITIES */
 
 .btn {
-  background-color: #e1d7d5;
+  background-color: var(--background-color);
   border: none;
-  padding: 0.2rem 0.5rem;
+  padding: 0.4rem 0.7rem;
   cursor: pointer;
+  color: var(--color-title);
+  font-weight: 600;
+
+  /*  */
+  position: relative;
+  --border-size: 2px;
+  --background-color: #e1d7d5;
+  --card-accent-color: #af594c;
 }
+
+/* ----- || Button Animations ----- */
+/* button animation - border pop */
+.btn-border-pop::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border: var(--border-size) solid var(--background-color);
+  transition: top, left, bottom, right, 100ms ease-in-out;
+}
+
+.btn-border-pop:hover::before,
+.btn-border-pop:focus::before {
+  top: calc(var(--border-size) * -2);
+  right: calc(var(--border-size) * -2);
+  bottom: calc(var(--border-size) * -2);
+  left: calc(var(--border-size) * -2);
+}
+
+/* button animation - background slide */
+.btn.btn-background-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-color: var(--card-accent-color);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 200ms ease-in-out;
+}
+
+.btn.btn-background-slide:hover::before,
+.btn.btn-background-slide:focus::before {
+  transform: scaleX(1);
+}
+
+.btn.btn-background-slide {
+  z-index: 1;
+  transition: color 200ms ease-in-out;
+}
+
+.btn.btn-background-slide:hover,
+.btn.btn-background-slide:focus {
+  color: white;
+}
+
+/* ----- Button Animations ----- */
 
 .nobullets {
   list-style: none;
