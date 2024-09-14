@@ -5,6 +5,7 @@
     <link rel="icon" href="https://fav.farm/👾" />
 
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./hero.css" />
     <link rel="stylesheet" href="./projects.css" />
     <link rel="stylesheet" href="./responsive.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,6 +20,7 @@
   </head>
   <body>
     <div class="main">
+      <!-- HERO SECTION -->
       <section class="hero">
         <p class="name">Anushka Singh</p>
         <div class="hero-wrapper">
@@ -32,6 +34,7 @@
         <p class="name">Developer</p>
       </section>
 
+      <!-- EXPERIENCE SECTION -->
       <section class="section-break experience-section">
         <div class="experience-first">
           <h3 class="experience-title">Work Experience</h3>
@@ -120,6 +123,7 @@
         </div>
       </section>
 
+      <!-- SKILLS SECTION -->
       <section class="section-break skills-section">
         <!-- <i class="fa-solid fa-user"></i> -->
         <h3 class="skills-title">
@@ -198,18 +202,7 @@
         </div>
       </section>
 
-      <!-- <section class="section-break projects-section">
-        <h2>Great Frontend Projects</h2>
-        <div class="projects-wrapper">
-          <div class="bento-wrapper">
-            <div class="bento">
-              <p class="bento-value">1</p>
-            </div>
-            <p class="bento-title">Blog Card</p>
-          </div>
-        </div>
-      </section> -->
-
+      <!-- PROJECTS SECTION -->
       <section class="section-break project-section">
         <h3 class="project-section-title">Sample projects</h3>
         <div class="projects-flex-container">
@@ -290,6 +283,7 @@
               </button>
             </div>
           </div>
+
           <div
             class="projects-flex-item project-card"
             onclick="openProject('weather')"
@@ -331,6 +325,7 @@
               </button>
             </div>
           </div>
+
           <div
             class="projects-flex-item project-card"
             onclick="openProject('apparel')"
@@ -350,16 +345,54 @@
                 /><img
                   class="project-stack-icon"
                   src="https://skillicons.dev/icons?i=css&theme=dark"
-                  alt="html"
-                /><img
-                  class="project-stack-icon"
-                  src="https://skillicons.dev/icons?i=react&theme=dark"
-                  alt="html"
+                  alt="css"
                 />
                 <img
                   class="project-stack-icon"
-                  src="https://skillicons.dev/icons?i=vercel&theme=dark"
-                  alt="vercel"
+                  src="https://skillicons.dev/icons?i=bootstrap&theme=dark"
+                  alt="bootstrap"
+                /><img
+                  class="project-stack-icon"
+                  src="https://skillicons.dev/icons?i=react&theme=dark"
+                  alt="react"
+                />
+              </div>
+
+              <button class="btn btn-arrow btn-background-slide">
+                View Project <span class="btn-arrow-icon">&rarr;</span>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="projects-flex-item project-card"
+            onclick="openProject('miscellaneous')"
+          >
+            <a class="project-card-title">Miscellaneous</a>
+            <p class="project-card-desc">
+              Continuous learning with practical challenges on platforms like
+              HackerRank, GreatFrontend, JavaScript30 etc., sharing daily
+              progress on GitHub.
+            </p>
+            <div class="project-stack">
+              <div class="project-stack-wrapper">
+                <img
+                  class="project-stack-icon"
+                  src="https://skillicons.dev/icons?i=javascript&theme=dark"
+                  alt="javascript"
+                /><img
+                  class="project-stack-icon"
+                  src="https://skillicons.dev/icons?i=css&theme=dark"
+                  alt="css"
+                /><img
+                  class="project-stack-icon"
+                  src="https://skillicons.dev/icons?i=github&theme=dark"
+                  alt="github"
+                />
+                <img
+                  class="project-stack-icon"
+                  src="https://skillicons.dev/icons?i=python&theme=dark"
+                  alt="python"
                 />
               </div>
 
@@ -485,9 +518,11 @@
         </div> -->
       </section>
 
-      <section class="section-break interests-section">Interests</section>
+      <!-- INTERESTS SECTION -->
+      <!-- <section class="section-break interests-section">Interests</section> -->
     </div>
 
+    <!-- FOOTER SECTION -->
     <section class="section-break footer">
       <div class="footer-top">
         <div class="footer-content">

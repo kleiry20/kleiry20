@@ -27,18 +27,6 @@ section {
   padding: 2rem;
 }
 
-.grid {
-  grid-template-columns: repeat(2, 1fr);
-  display: grid;
-  gap: 2rem;
-}
-.grid-child {
-  background-color: dodgerblue;
-  color: white;
-  padding: 1rem;
-  height: 4rem;
-}
-
 /* icons */
 .html-icon {
   color: #e34f26;
@@ -200,50 +188,6 @@ section {
   /* additional */
   align-items: flex-end;
   flex-grow: 1;
-}
-
-/* app */
-.hero {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 2rem;
-}
-
-.name {
-  font-family: "Cardo", serif;
-  font-size: 20px;
-  font-weight: 700;
-  font-style: italic;
-  letter-spacing: 0.8px;
-}
-
-.hero-wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-  text-align: center;
-  margin-top: 9rem;
-  align-items: center;
-}
-
-.hero-title {
-  font-size: 6rem;
-  margin: 0;
-  text-transform: uppercase;
-  font-weight: 200;
-  color: #000000c7;
-}
-
-.hero-image {
-  display: flex;
-  border-radius: 10px;
-  z-index: -1;
-  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
-  position: relative;
-  height: auto;
-  width: 12rem;
-  display: flex;
-  bottom: 42px;
 }
 
 /* experience section */

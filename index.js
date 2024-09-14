@@ -1,7 +1,4 @@
 function openProject(key) {
-  //   if (key == "crypto") {
-  //     window.open("https://intract-app.vercel.app/", "_blank");
-  //   }
   switch (key) {
     case "crypto":
       window.open("https://intract-app.vercel.app/", "_blank");
@@ -14,6 +11,10 @@ function openProject(key) {
       break;
     case "apparel":
       window.open("https://bewakoof-iat3.vercel.app/", "_blank");
+      break;
+    case "miscellaneous":
+      window.open("https://github.com/kleiry20", "_blank");
+      break;
     default:
       console.log("error routing the project");
   }
