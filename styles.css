@@ -190,70 +190,7 @@ section {
   flex-grow: 1;
 }
 
-/* experience section */
-.experience-section {
-  font-family: "Cardo", serif;
-  padding: 2rem;
-  display: flex;
-  gap: 4rem;
-  min-height: auto;
-}
 
-.experience-first {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.experience-icon {
-  transform: rotate(-12deg);
-}
-
-.experience-title {
-  font-size: 3.4rem;
-  text-transform: uppercase;
-  color: var(--color-title);
-  margin: 0;
-}
-
-.experience-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 8px;
-}
-
-.experience-item {
-  display: flex;
-  gap: 5rem;
-}
-
-.designation-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.designation-span {
-  display: inline-flex;
-  align-items: center;
-}
-
-.ul-wrapper {
-  line-height: 26px;
-}
-
-.designation {
-  font-weight: 900;
-  font-size: 18px;
-  margin-top: 0;
-}
-
-.timeline {
-  width: 20rem;
-  font-weight: 900;
-  font-size: 18px;
-  margin: 0;
-}
 
 /* skills section */
 .skills-section {
