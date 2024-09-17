@@ -1,0 +1,62 @@
+/* skills section */
+.skills-section {
+  padding: 2rem;
+  font-family: "Cardo", serif;
+  display: flex;
+  flex-direction: column;
+  min-height: auto;
+}
+
+.skills-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.skills-title {
+  font-size: 3.4rem;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  color: var(--color-title);
+}
+
+.skills-title-emoji {
+  height: auto;
+  width: 4rem;
+}
+
+.skills-intro {
+  text-align: center;
+  margin: 5rem;
+  font-weight: 700;
+}
+
+.skills-dimensions {
+  height: auto;
+  width: 5rem;
+}
+
+.skills {
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+}
+
+.skills:hover {
+  transform: scale(1.2);
+}
+
+.skills-rotate-right {
+  transition: transform 0.3s ease-in;
+}
+.skills-rotate-right {
+  transform: rotate(-10deg);
+}
+
+.skills-rotate-right {
+  transition: transform 0.3s ease-in;
+}
+.skills-rotate-left {
+  transform: rotate(10deg);
+}
