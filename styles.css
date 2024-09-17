@@ -190,10 +190,6 @@ section {
   flex-grow: 1;
 }
 
-
-
-
-
 /* footer section */
 .footer {
   min-height: 400px;
@@ -271,4 +267,64 @@ section {
 
 .contact-names {
   /* display: flex; */
+}
+
+/* ANIMATIONS */
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-400px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slideRight {
+  animation: slideRight 2s ease-in 0.3s 1;
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(300px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slideLeft {
+  animation: slideLeft 2s ease-in 0.3s 1;
+}
+
+@keyframes rotateFull {
+  from {
+    transform: rotate(360deg) scale(0.5);
+  }
+  to {
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+.rotateFull {
+  animation: rotateFull 2.5s ease-in 0s 1;
+}
+
+/* zoom */
+@keyframes zoom {
+  0% {
+    transform: scale(var(--scaleStart));
+  }
+  50% {
+    transform: scale(var(--scaleMid));
+  }
+  100% {
+    transform: scale(var(--scaleEnd));
+  }
+}
+.zoom--fast {
+  --scaleStart: 0.3;
+  --scaleMid: 1.7;
+  --scaleEnd: 1;
+  animation: zoom 3s ease-in-out;
 }
