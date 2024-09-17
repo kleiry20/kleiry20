@@ -326,5 +326,5 @@ section {
   --scaleStart: 0.3;
   --scaleMid: 1.7;
   --scaleEnd: 1;
-  animation: zoom 3s ease-in-out;
+  animation: zoom 3s ease-in-out 0.2s;
 }
