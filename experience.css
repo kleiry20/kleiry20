@@ -39,6 +39,7 @@
 .designation-wrapper {
   display: flex;
   flex-direction: column;
+  width: 80%;
 }
 
 .designation-span {
@@ -47,7 +48,9 @@
 }
 
 .ul-wrapper {
-  line-height: 26px;
+  line-height: 30px;
+  padding-left: 0;
+  margin-top: 0;
 }
 
 .designation {
@@ -57,8 +60,12 @@
 }
 
 .timeline {
-  width: 20rem;
+  width: 20%;
   font-weight: 900;
   font-size: 18px;
   margin: 0;
 }
+
+/* .rotate-infinite{
+    animation: rotate-infinite duration timing-function delay iteration-count direction fill-mode;
+} */
