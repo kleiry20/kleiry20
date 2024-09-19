@@ -328,3 +328,18 @@ section {
   --scaleEnd: 1;
   animation: zoom 3s ease-in-out 0.2s;
 }
+
+/* rotate */
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate {
+  animation: rotate 3s ease-in-out;
+}
