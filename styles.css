@@ -324,9 +324,9 @@ section {
 }
 .zoom--fast {
   --scaleStart: 0.3;
-  --scaleMid: 1.7;
+  --scaleMid: 1.5;
   --scaleEnd: 1;
-  animation: zoom 3s ease-in-out 0.2s;
+  animation: zoom 2s ease-in-out 0.5s;
 }
 
 /* rotate */
