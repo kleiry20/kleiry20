@@ -75,7 +75,8 @@ section {
   position: relative;
   --border-size: 2px;
   --background-color: #e1d7d5;
-  --card-accent-color: #af594c;
+  /* --card-accent-color: #af594c; */
+  --card-accent-color: #031e23;
 }
 
 .btn-arrow {
@@ -139,7 +140,7 @@ section {
 
 .btn.btn-background-slide:hover,
 .btn.btn-background-slide:focus {
-  color: white;
+  color: #e2e6eb;
 }
 
 /* ----- Button Animations ----- */
