@@ -1,0 +1,79 @@
+/* footer section */
+.footer {
+  min-height: 400px;
+  margin: 2rem 4rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 4rem;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-name {
+  font-family: "Montserrat", serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.footer-desc {
+  text-transform: uppercase;
+  font-size: 4rem;
+  width: 55%;
+  font-weight: 300;
+  font-family: "Montserrat";
+  margin: 0;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* .footer-socials a {
+    font-style: italic;
+  } */
+
+.footer-mention {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-grow: 1;
+}
+
+.footer-p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  letter-spacing: 2.5px;
+  font-family: "Montserrat", serif;
+}
+
+.footer-icon {
+  width: 2.2rem;
+  height: auto;
+}
+
+.footer-a {
+  color: black;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid green;
+}
