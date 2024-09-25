@@ -2,7 +2,8 @@
 
 .project-section {
   display: flex;
-  gap: 2rem;
+  /* gap: 2rem; */
+  gap: 4rem;
   min-height: auto;
 }
 
@@ -66,10 +67,10 @@
 }
 
 .project-card-title {
-  font-size: 3rem;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 700;
   font-style: italic;
+  letter-spacing: 1px;
 }
 
 .project-card-desc {

@@ -199,12 +199,12 @@ section {
   display: flex;
   flex-direction: column;
   padding: 2rem;
+  gap: 4rem;
 }
 
 .footer-top {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2rem;
 }
 
 .footer-name {
@@ -218,7 +218,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .footer-desc {
@@ -236,9 +236,9 @@ section {
   align-items: center;
 }
 
-.footer-socials a {
+/* .footer-socials a {
   font-style: italic;
-}
+} */
 
 .footer-mention {
   display: flex;
@@ -257,7 +257,7 @@ section {
 }
 
 .footer-icon {
-  width: 2rem;
+  width: 2.2rem;
   height: auto;
 }
 
