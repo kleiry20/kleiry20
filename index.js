@@ -19,3 +19,11 @@ function openProject(key) {
       console.log("error routing the project");
   }
 }
+
+function openSocial(key) {
+  switch (key) {
+    case "linkedin":
+      window.open("https://www.linkedin.com/in/anushka-21", "_blank");
+      break;
+  }
+}

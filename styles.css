@@ -233,6 +233,7 @@ section {
 .footer-socials {
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 
 .footer-socials a {
@@ -253,6 +254,11 @@ section {
   letter-spacing: 2.5px;
   font-family: "Montserrat", serif;
   /* color: #9399a2; */
+}
+
+.footer-icon {
+  width: 2rem;
+  height: auto;
 }
 
 .footer-a {

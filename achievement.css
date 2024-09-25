@@ -1,0 +1,10 @@
+.achievement-section {
+}
+
+.achievement-title {
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  color: var(--color-title);
+  margin: 0;
+  text-align: center;
+}
