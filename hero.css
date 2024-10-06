@@ -1,8 +1,16 @@
 /* app */
 .hero {
+  /* display: flex;
+  justify-content: space-between; */
+  padding: 0 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-top {
   display: flex;
   justify-content: space-between;
-  padding: 0 2rem;
 }
 
 .name {
@@ -16,10 +24,10 @@
 .hero-wrapper {
   display: flex;
   flex-direction: column;
-  width: 60%;
-  text-align: center;
+  /* width: 60%; */
   margin-top: 9rem;
   align-items: center;
+  justify-content: center;
 }
 
 .hero-title {
