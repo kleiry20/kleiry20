@@ -100,27 +100,3 @@
 .project-stack-icon {
   width: 2rem;
 }
-
-.bento-wrapper {
-  height: auto;
-  width: 8rem;
-}
-
-.bento {
-  min-height: 6rem;
-  min-width: 6rem;
-  border-radius: 10px;
-  background-color: #818473;
-  display: flex;
-  cursor: pointer;
-}
-
-.bento-value {
-  color: #efe7dd;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin: 0;
-  font-size: 34px;
-}

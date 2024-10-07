@@ -7,7 +7,13 @@
     font-size: 5rem;
   }
   .experience-title {
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+  .experience-icon {
+    width: 15rem;
+  }
+  .footer-p {
+    font-size: 14px;
   }
 }
 
@@ -18,6 +24,7 @@
   }
   .hero {
     padding: 0 1rem;
+    min-height: 900px;
   }
   .hero-title {
     font-size: 4rem;
@@ -28,6 +35,21 @@
 
   .experience-section {
     flex-direction: column;
+    gap: 2rem;
+    /*     use this when using experience-icon
+    min-height: 75rem; */
+  }
+  .experience-icon {
+    /* width: 13rem;
+    position: relative;
+    top: 68rem;
+    left: 21rem;
+    margin: -127px;
+    transform: rotate(3deg); */
+    display: none;
+  }
+  .timeline {
+    width: 30%;
   }
   .experience-title {
     font-size: 2rem;
@@ -39,26 +61,56 @@
   .project-section {
     display: flex;
     flex-wrap: wrap;
+    gap: 0;
+    justify-content: center;
+    /* border: none; */
   }
+  .project-section-title {
+    font-size: 3rem;
+  }
+  .projects-flex-container {
+    justify-content: center;
+  }
+  .projects-flex-item {
+    margin: 10px 10px 10px 0;
+  }
+
   .skills-wrapper {
     flex-wrap: wrap;
   }
+  .skills-title {
+    font-size: 3rem;
+  }
+  .skills-title-emoji {
+    height: auto;
+    width: 3.5rem;
+  }
+
   .footer-top {
     flex-wrap: wrap;
+  }
+  .footer-content {
+    margin-bottom: 2rem;
+  }
+  .footer-img {
+    width: 100%;
+  }
+  .footer-p {
+    font-size: 14px;
   }
 }
 
 /* Mobile - 450px - medium */
 @media (max-width: 450px) {
   .section-break {
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
   .main {
-    padding: 2rem 2rem;
+    padding: 2rem;
   }
   .hero {
-    padding: 0 1rem;
-    min-height: 610px;
+    padding: 0 1rem 2rem;
+    min-height: 650px;
   }
   .hero-wrapper {
     margin-top: 6rem;
@@ -67,23 +119,26 @@
     font-size: 2.8rem;
   }
   .hero-image {
+    width: 12rem;
     bottom: 22px;
   }
   .name {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .experience-section {
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 4rem;
+    min-height: 89rem;
   }
   .experience-title {
     font-size: 2rem;
   }
   .experience-icon {
-    width: 10rem;
+    display: block;
+    width: 11rem;
     position: absolute;
-    top: 141rem;
+    top: 128.5rem;
     left: 15rem;
   }
   .experience-item {
@@ -92,11 +147,15 @@
   }
   .designation-wrapper {
     width: 100%;
-    margin-bottom: 9rem;
+    margin-bottom: 0;
   }
   .designation {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     font-size: 16px;
+  }
+  .designation-icon {
+    width: 20px;
+    height: auto;
   }
   .timeline {
     width: 100%;
@@ -115,7 +174,7 @@
     width: 2.5rem;
   }
   .skills {
-    width: 2.5rem;
+    width: 3rem;
   }
 
   .project-section {
@@ -157,6 +216,7 @@
   }
   .footer-content {
     gap: 1rem;
+    margin-bottom: 0;
   }
   .footer-top {
     flex-wrap: wrap;
@@ -178,13 +238,12 @@
     width: 1.8rem;
   }
   .footer-img {
-    width: 19rem;
     height: 12rem;
   }
   .footer-p {
     gap: 0.3rem;
     letter-spacing: 0.5px;
-    font-size: 12px;
+    font-size: 10px;
   }
   .footer-mention {
     margin-top: 2rem;
@@ -194,23 +253,22 @@
 /* Mobile - 320px - smaller */
 @media (max-width: 320px) {
   .section-break {
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
-  .main {
-    padding: 2rem 2rem;
-  }
+
   .hero {
     padding: 0 1rem;
-    min-height: 610px;
+    min-height: 520px;
   }
   .hero-wrapper {
-    margin-top: 6rem;
+    margin-top: 4rem;
   }
   .hero-title {
     font-size: 1.8rem;
   }
   .hero-image {
     bottom: 14px;
+    width: 9rem;
   }
   .name {
     font-size: 12px;
@@ -219,33 +277,45 @@
   .experience-section {
     flex-wrap: wrap;
     gap: 2rem;
+    padding: 2rem 1.5rem;
+    min-height: 84rem;
   }
   .experience-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .experience-icon {
+    display: block;
     width: 10rem;
     position: absolute;
-    top: 177rem;
+    top: 115rem;
     left: 7rem;
   }
   .experience-item {
     flex-direction: column;
-    gap: 2rem;
   }
   .designation-wrapper {
     width: 100%;
-    margin-bottom: 9rem;
+    margin-bottom: 0;
   }
   .designation {
-    margin-bottom: 1rem;
-    font-size: 16px;
+    margin-bottom: 0;
+    font-size: 15px;
   }
-  .timeline {
-    width: 100%;
+  .company {
+    font-style: italic;
+    font-size: 12px;
+  }
+  .timeline-sm {
+    font-size: 12px;
+    width: 58%;
+    text-align: end;
+  }
+  .timeline-sm::before {
+    content: "";
   }
   .ul-wrapper {
-    line-height: 28px;
+    font-size: 13px;
+    line-height: 22px;
   }
 
   .skills-wrapper {
@@ -283,13 +353,15 @@
   }
   .project-card-desc {
     -webkit-line-clamp: 3;
+    font-size: 14px;
   }
   .projects-flex-item {
     width: 12rem;
     margin: 10px 0;
   }
   .btn {
-    padding: 0.3rem 0.5rem;
+    padding: 0.2rem 0.5rem;
+    font-size: 12px;
   }
 
   .footer {
@@ -303,6 +375,7 @@
   }
   .footer-content {
     gap: 1rem;
+    margin-bottom: 0;
   }
   .footer-top {
     flex-wrap: wrap;
@@ -316,21 +389,24 @@
   .footer-socials {
     justify-content: center;
     position: relative;
-    top: 12.5rem;
+    top: 11rem;
     left: 1rem;
     margin: -17px;
   }
   .footer-icon {
-    width: 1.8rem;
+    width: 1.5rem;
   }
   .footer-img {
-    width: 12.2rem;
-    height: 10rem;
+    height: 9rem;
   }
   .footer-p {
     gap: 0.3rem;
     letter-spacing: 0.5px;
-    font-size: 12px;
+    font-size: 8px;
+  }
+  .footer-hearts {
+    width: 20px;
+    height: 20px;
   }
   .footer-mention {
     margin-top: 2rem;

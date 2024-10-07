@@ -1,9 +1,6 @@
 /* app */
 .hero {
-  /* display: flex;
-  justify-content: space-between; */
   padding: 0 2rem;
-
   display: flex;
   flex-direction: column;
 }
@@ -11,6 +8,7 @@
 .hero-top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .name {
@@ -19,12 +17,15 @@
   font-weight: 700;
   font-style: italic;
   letter-spacing: 0.8px;
+  text-decoration: none;
+  color: #000000c7;
+  margin: 1em 0;
+  cursor: pointer;
 }
 
 .hero-wrapper {
   display: flex;
   flex-direction: column;
-  /* width: 60%; */
   margin-top: 9rem;
   align-items: center;
   justify-content: center;
@@ -45,8 +46,7 @@
   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
   position: relative;
   height: auto;
-  width: 12rem;
+  width: 16rem;
   display: flex;
   bottom: 42px;
-  /* transform: rotate(30deg); */
 }
