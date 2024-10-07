@@ -3,9 +3,6 @@
   .section-break {
     margin-top: 4rem;
   }
-  .hero {
-    /* min-height: auto; */
-  }
   .hero-title {
     font-size: 5rem;
   }
@@ -39,15 +36,6 @@
     line-height: 28px;
   }
 
-  /* trying before here */
-  /* .company {
-    position: absolute;
-    right: 11rem;
-  }
-  .company::before {
-    content: "@ ";
-  } */
-
   .project-section {
     display: flex;
     flex-wrap: wrap;
@@ -76,10 +64,10 @@
     margin-top: 6rem;
   }
   .hero-title {
-    font-size: 1.8rem;
+    font-size: 2.8rem;
   }
   .hero-image {
-    bottom: 14px;
+    bottom: 22px;
   }
   .name {
     font-size: 12px;
@@ -95,8 +83,8 @@
   .experience-icon {
     width: 10rem;
     position: absolute;
-    top: 155rem;
-    left: 10rem;
+    top: 141rem;
+    left: 15rem;
   }
   .experience-item {
     flex-direction: column;
@@ -121,10 +109,10 @@
     flex-wrap: wrap;
   }
   .skills-title {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
   .skills-title-emoji {
-    width: 3rem;
+    width: 2.5rem;
   }
   .skills {
     width: 2.5rem;
@@ -137,24 +125,35 @@
     justify-content: center;
   }
   .project-section-title {
-    font-size: 2.4rem;
+    font-size: 2rem;
     margin: 0;
   }
+  .project-card-title {
+    font-size: 1.3rem;
+  }
+  .project-card-desc {
+    -webkit-line-clamp: 3;
+  }
   .projects-flex-item {
-    width: 12rem;
+    width: 17rem;
     margin: 10px 0;
   }
   .project-stack {
     flex-wrap: wrap;
+    margin-top: 0;
+  }
+  .btn {
+    padding: 0.3rem 0.4rem;
   }
 
   .footer {
     margin: 2rem;
     gap: 3rem;
+    padding: 2rem 2rem 1rem 2rem;
   }
   .handshake-icon {
-    width: 40px;
-    height: 40px;
+    width: 1.6rem;
+    height: 1.6rem;
   }
   .footer-content {
     gap: 1rem;
@@ -163,26 +162,32 @@
     flex-wrap: wrap;
   }
   .footer-desc {
-    font-size: 2rem;
-    /* border: 1px solid; */
-    word-break: keep-all;
-    /* width: 100%; */
+    font-size: 1.8rem;
+  }
+  .footer-desc-span {
+    font-size: 1.8rem;
   }
   .footer-socials {
     justify-content: center;
-    margin-bottom: 1rem;
+    position: relative;
+    top: 14.5rem;
+    left: 5rem;
+    margin: -10px;
   }
   .footer-icon {
     width: 1.8rem;
   }
   .footer-img {
-    width: 15.2rem;
-    height: 13rem;
+    width: 19rem;
+    height: 12rem;
   }
   .footer-p {
     gap: 0.3rem;
     letter-spacing: 0.5px;
     font-size: 12px;
+  }
+  .footer-mention {
+    margin-top: 2rem;
   }
 }
 
@@ -221,8 +226,8 @@
   .experience-icon {
     width: 10rem;
     position: absolute;
-    top: 155rem;
-    left: 10rem;
+    top: 177rem;
+    left: 7rem;
   }
   .experience-item {
     flex-direction: column;
@@ -247,10 +252,10 @@
     flex-wrap: wrap;
   }
   .skills-title {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
   .skills-title-emoji {
-    width: 3rem;
+    width: 2.5rem;
   }
   .skills {
     width: 2.5rem;
@@ -264,24 +269,37 @@
     border: none;
   }
   .project-section-title {
-    font-size: 2.4rem;
+    font-size: 2rem;
     margin: 0;
+  }
+  .project-card-title {
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+  }
+  .project-stack {
+    margin-top: 0;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .project-card-desc {
+    -webkit-line-clamp: 3;
   }
   .projects-flex-item {
     width: 12rem;
     margin: 10px 0;
   }
-  .project-stack {
-    flex-wrap: wrap;
+  .btn {
+    padding: 0.3rem 0.5rem;
   }
 
   .footer {
     margin: 2rem;
     gap: 3rem;
+    padding: 2rem 2rem 1rem 2rem;
   }
   .handshake-icon {
-    width: 40px;
-    height: 40px;
+    width: 1.6rem;
+    height: 1.6rem;
   }
   .footer-content {
     gap: 1rem;
@@ -290,25 +308,31 @@
     flex-wrap: wrap;
   }
   .footer-desc {
-    font-size: 2rem;
-    /* border: 1px solid; */
-    word-break: keep-all;
-    /* width: 100%; */
+    font-size: 1.5rem;
+  }
+  .footer-desc-span {
+    font-size: 1.5rem;
   }
   .footer-socials {
     justify-content: center;
-    margin-bottom: 1rem;
+    position: relative;
+    top: 12.5rem;
+    left: 1rem;
+    margin: -17px;
   }
   .footer-icon {
     width: 1.8rem;
   }
   .footer-img {
-    width: 15.2rem;
-    height: 13rem;
+    width: 12.2rem;
+    height: 10rem;
   }
   .footer-p {
     gap: 0.3rem;
     letter-spacing: 0.5px;
     font-size: 12px;
+  }
+  .footer-mention {
+    margin-top: 2rem;
   }
 }

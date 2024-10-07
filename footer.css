@@ -37,6 +37,17 @@
   margin: 0;
 }
 
+.footer-desc-span {
+  text-transform: uppercase;
+  font-size: 4rem;
+  width: 100%;
+  font-weight: 300;
+  font-family: "Montserrat";
+  margin: 0;
+  display: flex;
+  gap: 0.3rem;
+}
+
 .footer-socials {
   display: flex;
   gap: 1rem;
